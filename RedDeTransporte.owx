@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl">
+    <Prefix name="" IRI="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="ontoclean-dl-v1" IRI="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#"/>
+    <Import>http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl</Import>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">For context, please refer to the tutorial description available from https://people.cs.uct.ac.za/~mkeet/OEbook/</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">Punned AmountOfMatter tutorial ontology with Ontoclean meta-properties assigned for teaching to execute ontoclean.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">original version developed by Todii Mashoko, Siseko Neti, and Banele Matsebula</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Barrio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Entity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Linea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parada"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ParadaProgramada"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recorrido"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Viaje"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ParadaDeViaje"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ParadaEnBarrio"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ParadaProgramadaEnParada"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#RecorridoDeLinea"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ViajeDeRecorrido"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CodigoLinea"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Horario"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Barrio_ParqueBatlle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Linea_405"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ParadaDeViaje_405Mendoza_1_LADeHerrera-RepDelSalvador"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Parada_LADeHerrera-RepDelSalvador"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Recorrido_405Mendoza"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Recorrido_405ParqueRodo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Viaje_405Mendoza_1"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Barrio"/>
+        <Class IRI="#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Linea"/>
+        <Class IRI="#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parada"/>
+        <Class IRI="#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParadaProgramada"/>
+        <Class IRI="#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recorrido"/>
+        <Class IRI="#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Viaje"/>
+        <Class IRI="#Entity"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Barrio"/>
+        <NamedIndividual IRI="#Barrio_ParqueBatlle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Linea"/>
+        <NamedIndividual IRI="#Linea_405"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParadaProgramada"/>
+        <NamedIndividual IRI="#ParadaDeViaje_405Mendoza_1_LADeHerrera-RepDelSalvador"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parada"/>
+        <NamedIndividual IRI="#Parada_LADeHerrera-RepDelSalvador"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Recorrido"/>
+        <NamedIndividual IRI="#Recorrido_405Mendoza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Recorrido"/>
+        <NamedIndividual IRI="#Recorrido_405ParqueRodo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Viaje"/>
+        <NamedIndividual IRI="#Viaje_405Mendoza_1"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParadaDeViaje"/>
+        <NamedIndividual IRI="#ParadaDeViaje_405Mendoza_1_LADeHerrera-RepDelSalvador"/>
+        <NamedIndividual IRI="#Viaje_405Mendoza_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParadaProgramadaEnParada"/>
+        <NamedIndividual IRI="#ParadaDeViaje_405Mendoza_1_LADeHerrera-RepDelSalvador"/>
+        <NamedIndividual IRI="#Parada_LADeHerrera-RepDelSalvador"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParadaEnBarrio"/>
+        <NamedIndividual IRI="#Parada_LADeHerrera-RepDelSalvador"/>
+        <NamedIndividual IRI="#Barrio_ParqueBatlle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#RecorridoDeLinea"/>
+        <NamedIndividual IRI="#Recorrido_405Mendoza"/>
+        <NamedIndividual IRI="#Linea_405"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#RecorridoDeLinea"/>
+        <NamedIndividual IRI="#Recorrido_405ParqueRodo"/>
+        <NamedIndividual IRI="#Linea_405"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ViajeDeRecorrido"/>
+        <NamedIndividual IRI="#Viaje_405Mendoza_1"/>
+        <NamedIndividual IRI="#Recorrido_405Mendoza"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Horario"/>
+        <NamedIndividual IRI="#ParadaDeViaje_405Mendoza_1_LADeHerrera-RepDelSalvador"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0800</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ParadaDeViaje"/>
+        <Class IRI="#ParadaProgramada"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ParadaEnBarrio"/>
+        <Class IRI="#Parada"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ParadaProgramadaEnParada"/>
+        <Class IRI="#ParadaProgramada"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#RecorridoDeLinea"/>
+        <Class IRI="#Recorrido"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ViajeDeRecorrido"/>
+        <Class IRI="#Viaje"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ParadaDeViaje"/>
+        <Class IRI="#Viaje"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ParadaEnBarrio"/>
+        <Class IRI="#Barrio"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ParadaProgramadaEnParada"/>
+        <Class IRI="#Parada"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#RecorridoDeLinea"/>
+        <Class IRI="#Linea"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ViajeDeRecorrido"/>
+        <Class IRI="#Recorrido"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#CodigoLinea"/>
+        <Class IRI="#Linea"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Horario"/>
+        <Class IRI="#ParadaProgramada"/>
+    </DataPropertyDomain>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>ontoclean-dl-v1:Class</AbbreviatedIRI>
+        <Literal xml:lang="en">This is class represents the &apos;Universal&apos; meta-property. All meta-properties from Welty&apos;s 2006 OntoClean metaproperty ontology are subclasses of it. All the instances of the this class correspond to the classes from the AmountOfMatter tutorial ontology.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
