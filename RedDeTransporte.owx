@@ -48,6 +48,9 @@
         <Class IRI="#Viaje"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#ParadaConParadaProgramada"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#ParadaDeRecorrido"/>
     </Declaration>
     <Declaration>
@@ -2660,9 +2663,14 @@
         <NamedIndividual IRI="#ParadaDeViaje_GPortones_1_Universidad"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0913</Literal>
     </DataPropertyAssertion>
-    <SymmetricObjectProperty>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#ParadaConParadaProgramada"/>
         <ObjectProperty IRI="#ParadaProgramadaEnParada"/>
-    </SymmetricObjectProperty>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ParadaConParadaProgramada"/>
+        <Class IRI="#Parada"/>
+    </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#ParadaDeRecorrido"/>
         <Class IRI="#Parada"/>
@@ -2691,6 +2699,10 @@
         <ObjectProperty IRI="#ViajeDeRecorrido"/>
         <Class IRI="#Viaje"/>
     </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ParadaConParadaProgramada"/>
+        <Class IRI="#ParadaProgramada"/>
+    </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#ParadaDeViaje"/>
         <Class IRI="#Viaje"/>
@@ -2717,17 +2729,17 @@
     </ObjectPropertyRange>
     <SubObjectPropertyOf>
         <ObjectPropertyChain>
+            <ObjectProperty IRI="#ParadaConParadaProgramada"/>
+            <ObjectProperty IRI="#ParadaProgramadaDeRecorrido"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#ParadaDeRecorrido"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
             <ObjectProperty IRI="#ParadaDeViaje"/>
             <ObjectProperty IRI="#ViajeDeRecorrido"/>
         </ObjectPropertyChain>
         <ObjectProperty IRI="#ParadaProgramadaDeRecorrido"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectPropertyChain>
-            <ObjectProperty IRI="#ParadaProgramadaEnParada"/>
-            <ObjectProperty IRI="#ParadaProgramadaDeRecorrido"/>
-        </ObjectPropertyChain>
-        <ObjectProperty IRI="#ParadaDeRecorrido"/>
     </SubObjectPropertyOf>
     <DataPropertyDomain>
         <DataProperty IRI="#CodigoLinea"/>
