@@ -1,0 +1,476 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#"
+     xml:base="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:ontoclean-dl-v1="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#">
+    <owl:Ontology rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl">
+        <owl:imports rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl"/>
+        <rdfs:comment xml:lang="en">For context, please refer to the tutorial description available from https://people.cs.uct.ac.za/~mkeet/OEbook/</rdfs:comment>
+        <rdfs:comment xml:lang="en">Punned AmountOfMatter tutorial ontology with Ontoclean meta-properties assigned for teaching to execute ontoclean.</rdfs:comment>
+        <rdfs:comment xml:lang="en">original version developed by Todii Mashoko, Siseko Neti, and Banele Matsebula</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#AmountOfMatter -->
+
+    <owl:Class rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#AmountOfMatter">
+        <rdfs:subClassOf rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Amphibian -->
+
+    <owl:Class rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Amphibian">
+        <rdfs:subClassOf rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Living"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Ball -->
+
+    <owl:Class rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Ball">
+        <rdfs:subClassOf rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Non-Living"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Child -->
+
+    <owl:Class rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Child">
+        <rdfs:subClassOf rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Human"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Door -->
+
+    <owl:Class rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Door">
+        <rdfs:subClassOf rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Tree"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Entity -->
+
+    <owl:Class rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Entity"/>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Father -->
+
+    <owl:Class rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Father">
+        <rdfs:subClassOf rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Human"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Frog -->
+
+    <owl:Class rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Frog">
+        <rdfs:subClassOf rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Amphibian"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Human -->
+
+    <owl:Class rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Human">
+        <rdfs:subClassOf rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Mammal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Living -->
+
+    <owl:Class rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Living">
+        <rdfs:subClassOf rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#AmountOfMatter"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Male -->
+
+    <owl:Class rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Male">
+        <rdfs:subClassOf rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Father"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Mammal -->
+
+    <owl:Class rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Mammal">
+        <rdfs:subClassOf rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Living"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Non-Living -->
+
+    <owl:Class rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Non-Living">
+        <rdfs:subClassOf rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#AmountOfMatter"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Paper -->
+
+    <owl:Class rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Paper">
+        <rdfs:subClassOf rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Tree"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Plant -->
+
+    <owl:Class rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Plant">
+        <rdfs:subClassOf rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Living"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Professor -->
+
+    <owl:Class rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Professor">
+        <rdfs:subClassOf rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Teacher"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Sphere -->
+
+    <owl:Class rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Sphere">
+        <rdfs:subClassOf rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Ball"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Student -->
+
+    <owl:Class rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Student">
+        <rdfs:subClassOf rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Human"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Tadpole -->
+
+    <owl:Class rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Tadpole">
+        <rdfs:subClassOf rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Amphibian"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Teacher -->
+
+    <owl:Class rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Teacher">
+        <rdfs:subClassOf rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Human"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Tree -->
+
+    <owl:Class rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Tree">
+        <rdfs:subClassOf rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Plant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Wood -->
+
+    <owl:Class rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Wood">
+        <rdfs:subClassOf rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Door"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#Class -->
+
+    <rdf:Description rdf:about="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#Class">
+        <rdfs:comment xml:lang="en">This is class represents the &apos;Universal&apos; meta-property. All meta-properties from Welty&apos;s 2006 OntoClean metaproperty ontology are subclasses of it. All the instances of the this class correspond to the classes from the AmountOfMatter tutorial ontology.</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#AmountOfMatter -->
+
+    <owl:NamedIndividual rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#AmountOfMatter">
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#AntiUnityClass"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#Class"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#NonDependentClass"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#RigidClass"/>
+        <ontoclean-dl-v1:hasSubClass rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Living"/>
+        <ontoclean-dl-v1:hasSubClass rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Non-Living"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Amphibian -->
+
+    <owl:NamedIndividual rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Amphibian">
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#Class"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#NonDependentClass"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#RigidClass"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#SortalClass"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#UnityClass"/>
+        <ontoclean-dl-v1:hasSubClass rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Frog"/>
+        <ontoclean-dl-v1:hasSubClass rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Tadpole"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Ball -->
+
+    <owl:NamedIndividual rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Ball">
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#Class"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#RigidClass"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#SortalClass"/>
+        <ontoclean-dl-v1:hasSubClass rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Sphere"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Child -->
+
+    <owl:NamedIndividual rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Child">
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#AntiRigidClass"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#Class"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#DependentClass"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#SortalClass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Door -->
+
+    <owl:NamedIndividual rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Door">
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#Class"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#DependentClass"/>
+        <ontoclean-dl-v1:hasSubClass rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Wood"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Entity -->
+
+    <owl:NamedIndividual rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Entity">
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#Class"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#NonDependentClass"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#NonSortalClass"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#NonUnityClass"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#RigidClass"/>
+        <ontoclean-dl-v1:hasSubClass rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#AmountOfMatter"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Father -->
+
+    <owl:NamedIndividual rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Father">
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#Class"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#DependentClass"/>
+        <ontoclean-dl-v1:hasSubClass rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Male"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Frog -->
+
+    <owl:NamedIndividual rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Frog">
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#Class"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#NonDependentClass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Human -->
+
+    <owl:NamedIndividual rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Human">
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#Class"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#NonDependentClass"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#RigidClass"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#SortalClass"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#UnityClass"/>
+        <ontoclean-dl-v1:hasSubClass rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Child"/>
+        <ontoclean-dl-v1:hasSubClass rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Father"/>
+        <ontoclean-dl-v1:hasSubClass rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Student"/>
+        <ontoclean-dl-v1:hasSubClass rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Teacher"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Living -->
+
+    <owl:NamedIndividual rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Living">
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#Class"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#NonDependentClass"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#RigidClass"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#UnityClass"/>
+        <ontoclean-dl-v1:hasSubClass rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Amphibian"/>
+        <ontoclean-dl-v1:hasSubClass rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Mammal"/>
+        <ontoclean-dl-v1:hasSubClass rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Plant"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Male -->
+
+    <owl:NamedIndividual rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Male">
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#Class"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#NonDependentClass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Mammal -->
+
+    <owl:NamedIndividual rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Mammal">
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#Class"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#NonDependentClass"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#RigidClass"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#SortalClass"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#UnityClass"/>
+        <ontoclean-dl-v1:hasSubClass rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Human"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Non-Living -->
+
+    <owl:NamedIndividual rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Non-Living">
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#Class"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#NonDependentClass"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#RigidClass"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#UnityClass"/>
+        <ontoclean-dl-v1:hasSubClass rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Ball"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Paper -->
+
+    <owl:NamedIndividual rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Paper">
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#Class"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#DependentClass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Plant -->
+
+    <owl:NamedIndividual rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Plant">
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#Class"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#NonDependentClass"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#RigidClass"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#SortalClass"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#UnityClass"/>
+        <ontoclean-dl-v1:hasSubClass rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Tree"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Professor -->
+
+    <owl:NamedIndividual rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Professor">
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#Class"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#RigidClass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Sphere -->
+
+    <owl:NamedIndividual rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Sphere">
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#Class"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#NonSortalClass"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#RigidClass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Student -->
+
+    <owl:NamedIndividual rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Student">
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#AntiRigidClass"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#Class"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#DependentClass"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#SortalClass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Tadpole -->
+
+    <owl:NamedIndividual rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Tadpole">
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#Class"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#NonDependentClass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Teacher -->
+
+    <owl:NamedIndividual rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Teacher">
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#AntiRigidClass"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#Class"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#DependentClass"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#SortalClass"/>
+        <ontoclean-dl-v1:hasSubClass rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Professor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Tree -->
+
+    <owl:NamedIndividual rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Tree">
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#Class"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#NonDependentClass"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#RigidClass"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#SortalClass"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#UnityClass"/>
+        <ontoclean-dl-v1:hasSubClass rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Door"/>
+        <ontoclean-dl-v1:hasSubClass rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Paper"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Wood -->
+
+    <owl:NamedIndividual rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl#Wood">
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#Class"/>
+        <rdf:type rdf:resource="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl#RigidClass"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

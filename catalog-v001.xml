@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="User Entered Import Resolution" name="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl" uri="Archivos%20owl%20OntoClean-20251030/people.cs.uct.ac.za_~mkeet_OEbook_ontologies_ontoclean-dl.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1761685050816" name="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl" uri="RedDeTransporte.owx"/>
+        <uri id="Automatically generated entry, Timestamp=1761793956875" name="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl" uri="RedDeTransporte.owx"/>
     </group>
 </catalog>

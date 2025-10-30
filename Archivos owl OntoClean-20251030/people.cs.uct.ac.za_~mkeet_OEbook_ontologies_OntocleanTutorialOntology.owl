@@ -1,0 +1,204 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#"
+     xml:base="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl">
+        <rdfs:comment xml:lang="en">AmountOfMatter tutorial ontology for teaching to execute ontoclean.</rdfs:comment>
+        <rdfs:comment xml:lang="en">For context, please refer to the tutorial description available from https://people.cs.uct.ac.za/~mkeet/OEbook/</rdfs:comment>
+        <rdfs:comment xml:lang="en">original version developed by Todii Mashoko, Siseko Neti, and Banele Matsebula</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#AmountOfMatter -->
+
+    <owl:Class rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#AmountOfMatter">
+        <rdfs:subClassOf rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Amphibian -->
+
+    <owl:Class rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Amphibian">
+        <rdfs:subClassOf rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Living"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Ball -->
+
+    <owl:Class rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Ball">
+        <rdfs:subClassOf rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Non-Living"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Child -->
+
+    <owl:Class rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Child">
+        <rdfs:subClassOf rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Human"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Door -->
+
+    <owl:Class rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Door">
+        <rdfs:subClassOf rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Tree"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Entity -->
+
+    <owl:Class rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Entity"/>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Father -->
+
+    <owl:Class rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Father">
+        <rdfs:subClassOf rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Human"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Frog -->
+
+    <owl:Class rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Frog">
+        <rdfs:subClassOf rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Amphibian"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Human -->
+
+    <owl:Class rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Human">
+        <rdfs:subClassOf rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Mammal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Living -->
+
+    <owl:Class rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Living">
+        <rdfs:subClassOf rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#AmountOfMatter"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Male -->
+
+    <owl:Class rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Male">
+        <rdfs:subClassOf rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Father"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Mammal -->
+
+    <owl:Class rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Mammal">
+        <rdfs:subClassOf rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Living"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Non-Living -->
+
+    <owl:Class rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Non-Living">
+        <rdfs:subClassOf rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#AmountOfMatter"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Paper -->
+
+    <owl:Class rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Paper">
+        <rdfs:subClassOf rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Tree"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Plant -->
+
+    <owl:Class rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Plant">
+        <rdfs:subClassOf rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Living"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Professor -->
+
+    <owl:Class rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Professor">
+        <rdfs:subClassOf rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Teacher"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Sphere -->
+
+    <owl:Class rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Sphere">
+        <rdfs:subClassOf rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Ball"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Student -->
+
+    <owl:Class rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Student">
+        <rdfs:subClassOf rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Human"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Tadpole -->
+
+    <owl:Class rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Tadpole">
+        <rdfs:subClassOf rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Amphibian"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Teacher -->
+
+    <owl:Class rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Teacher">
+        <rdfs:subClassOf rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Human"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Tree -->
+
+    <owl:Class rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Tree">
+        <rdfs:subClassOf rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Plant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Wood -->
+
+    <owl:Class rdf:about="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Wood">
+        <rdfs:subClassOf rdf:resource="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl#Door"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
