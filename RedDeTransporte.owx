@@ -1045,14 +1045,9 @@
         <NamedIndividual IRI="#Parada_TerminalColon"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#ParadaProgramadaEnParada"/>
-        <NamedIndividual IRI="#ParadaDeViaje_GPortones_1_BvarArtigas-ERodo"/>
-        <NamedIndividual IRI="#Parada_BvarArtigas-ERodo"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#ParadaProgramadaEnParada"/>
-        <NamedIndividual IRI="#ParadaDeViaje_GPortones_1_CementerioBuceo"/>
-        <NamedIndividual IRI="#Parada_CementerioBuceo"/>
+        <ObjectProperty IRI="#ParadaDeViaje"/>
+        <NamedIndividual IRI="#ParadaDeViaje_GPortones_1_LaPaz"/>
+        <NamedIndividual IRI="#Viaje_GPortones_1"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ParadaProgramadaEnParada"/>
@@ -1060,39 +1055,9 @@
         <NamedIndividual IRI="#Parada_LaPaz"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#ParadaProgramadaEnParada"/>
-        <NamedIndividual IRI="#ParadaDeViaje_GPortones_1_Malvin"/>
-        <NamedIndividual IRI="#Parada_Malvin"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#ParadaProgramadaEnParada"/>
-        <NamedIndividual IRI="#ParadaDeViaje_GPortones_1_PalacioLegislativo"/>
-        <NamedIndividual IRI="#Parada_PalacioLegislativo"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#ParadaProgramadaEnParada"/>
-        <NamedIndividual IRI="#ParadaDeViaje_GPortones_1_PasoMolino-ERomero"/>
-        <NamedIndividual IRI="#Parada_PasoMolino-ERomero"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#ParadaProgramadaEnParada"/>
-        <NamedIndividual IRI="#ParadaDeViaje_GPortones_1_PcioLuz-EntreRios"/>
-        <NamedIndividual IRI="#Parada_PcioLuz-EntreRios"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#ParadaProgramadaEnParada"/>
-        <NamedIndividual IRI="#ParadaDeViaje_GPortones_1_PlazaCuba"/>
-        <NamedIndividual IRI="#Parada_PlazaCuba"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#ParadaProgramadaEnParada"/>
-        <NamedIndividual IRI="#ParadaDeViaje_GPortones_1_PortonesTerminal"/>
-        <NamedIndividual IRI="#Parada_PortonesTerminal"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#ParadaProgramadaEnParada"/>
-        <NamedIndividual IRI="#ParadaDeViaje_GPortones_1_Sayago"/>
-        <NamedIndividual IRI="#Parada_Sayago"/>
+        <ObjectProperty IRI="#ParadaDeViaje"/>
+        <NamedIndividual IRI="#ParadaDeViaje_GPortones_1_TerminalColon"/>
+        <NamedIndividual IRI="#Viaje_GPortones_1"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ParadaProgramadaEnParada"/>
@@ -1100,9 +1065,104 @@
         <NamedIndividual IRI="#Parada_TerminalColon"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParadaDeViaje"/>
+        <NamedIndividual IRI="#ParadaDeViaje_GPortones_1_Sayago"/>
+        <NamedIndividual IRI="#Viaje_GPortones_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParadaProgramadaEnParada"/>
+        <NamedIndividual IRI="#ParadaDeViaje_GPortones_1_Sayago"/>
+        <NamedIndividual IRI="#Parada_Sayago"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParadaDeViaje"/>
+        <NamedIndividual IRI="#ParadaDeViaje_GPortones_1_PasoMolino-ERomero"/>
+        <NamedIndividual IRI="#Viaje_GPortones_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParadaProgramadaEnParada"/>
+        <NamedIndividual IRI="#ParadaDeViaje_GPortones_1_PasoMolino-ERomero"/>
+        <NamedIndividual IRI="#Parada_PasoMolino-ERomero"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParadaDeViaje"/>
+        <NamedIndividual IRI="#ParadaDeViaje_GPortones_1_PlazaCuba"/>
+        <NamedIndividual IRI="#Viaje_GPortones_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParadaProgramadaEnParada"/>
+        <NamedIndividual IRI="#ParadaDeViaje_GPortones_1_PlazaCuba"/>
+        <NamedIndividual IRI="#Parada_PlazaCuba"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParadaDeViaje"/>
+        <NamedIndividual IRI="#ParadaDeViaje_GPortones_1_PcioLuz-EntreRios"/>
+        <NamedIndividual IRI="#Viaje_GPortones_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParadaProgramadaEnParada"/>
+        <NamedIndividual IRI="#ParadaDeViaje_GPortones_1_PcioLuz-EntreRios"/>
+        <NamedIndividual IRI="#Parada_PcioLuz-EntreRios"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParadaDeViaje"/>
+        <NamedIndividual IRI="#ParadaDeViaje_GPortones_1_PalacioLegislativo"/>
+        <NamedIndividual IRI="#Viaje_GPortones_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParadaProgramadaEnParada"/>
+        <NamedIndividual IRI="#ParadaDeViaje_GPortones_1_PalacioLegislativo"/>
+        <NamedIndividual IRI="#Parada_PalacioLegislativo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParadaDeViaje"/>
+        <NamedIndividual IRI="#ParadaDeViaje_GPortones_1_Universidad"/>
+        <NamedIndividual IRI="#Viaje_GPortones_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ParadaProgramadaEnParada"/>
         <NamedIndividual IRI="#ParadaDeViaje_GPortones_1_Universidad"/>
         <NamedIndividual IRI="#Parada_Universidad"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParadaDeViaje"/>
+        <NamedIndividual IRI="#ParadaDeViaje_GPortones_1_BvarArtigas-ERodo"/>
+        <NamedIndividual IRI="#Viaje_GPortones_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParadaProgramadaEnParada"/>
+        <NamedIndividual IRI="#ParadaDeViaje_GPortones_1_BvarArtigas-ERodo"/>
+        <NamedIndividual IRI="#Parada_BvarArtigas-ERodo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParadaDeViaje"/>
+        <NamedIndividual IRI="#ParadaDeViaje_GPortones_1_CementerioBuceo"/>
+        <NamedIndividual IRI="#Viaje_GPortones_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParadaProgramadaEnParada"/>
+        <NamedIndividual IRI="#ParadaDeViaje_GPortones_1_CementerioBuceo"/>
+        <NamedIndividual IRI="#Parada_CementerioBuceo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParadaDeViaje"/>
+        <NamedIndividual IRI="#ParadaDeViaje_GPortones_1_Malvin"/>
+        <NamedIndividual IRI="#Viaje_GPortones_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParadaProgramadaEnParada"/>
+        <NamedIndividual IRI="#ParadaDeViaje_GPortones_1_Malvin"/>
+        <NamedIndividual IRI="#Parada_Malvin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParadaDeViaje"/>
+        <NamedIndividual IRI="#ParadaDeViaje_GPortones_1_PortonesTerminal"/>
+        <NamedIndividual IRI="#Viaje_GPortones_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParadaProgramadaEnParada"/>
+        <NamedIndividual IRI="#ParadaDeViaje_GPortones_1_PortonesTerminal"/>
+        <NamedIndividual IRI="#Parada_PortonesTerminal"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ParadaEnBarrio"/>
