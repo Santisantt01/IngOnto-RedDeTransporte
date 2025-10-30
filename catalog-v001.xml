@@ -2,6 +2,10 @@
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <uri id="User Entered Import Resolution" name="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl" uri="Archivos%20owl%20OntoClean-20251030/people.cs.uct.ac.za_~mkeet_OEbook_ontologies_ontoclean-dl.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1761793956875" name="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl" uri="RedDeTransporte.owx"/>
+        <uri id="Automatically generated entry, Timestamp=1761865105738" name="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl" uri="Archivos%20owl%20OntoClean-20251030/people.cs.uct.ac.za_~mkeet_OEbook_ontologies_OntocleanTutorialOntology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1761865105738" name="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunned.owl" uri="Archivos%20owl%20OntoClean-20251030/people.cs.uct.ac.za_~mkeet_OEbook_ontologies_OntocleanTutorialOntologyPunned.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1761865105738" name="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl" uri="RedDeTransporte.owx"/>
+        <uri id="Automatically generated entry, Timestamp=1761865105738" name="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl" uri="Archivos%20owl%20OntoClean-20251030/people.cs.uct.ac.za_~mkeet_OEbook_ontologies_ontoclean-dl.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1761865105738" name="shadowed:http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl" uri="Archivos%20owl%20OntoClean-20251030/people.cs.uct.ac.za_~mkeet_OEbook_ontologies_OntocleanTutorialOntologyPunnedMetaProperties.owl"/>
     </group>
 </catalog>
