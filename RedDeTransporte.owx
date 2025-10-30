@@ -998,6 +998,16 @@
         <NamedIndividual IRI="#Linea_405"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#RecorridoDeLinea"/>
+        <NamedIndividual IRI="#Recorrido_GLaPaz"/>
+        <NamedIndividual IRI="#Linea_G"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#RecorridoDeLinea"/>
+        <NamedIndividual IRI="#Recorrido_GPortones"/>
+        <NamedIndividual IRI="#Linea_G"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ViajeDeRecorrido"/>
         <NamedIndividual IRI="#Viaje_183PasoMolino_1"/>
         <NamedIndividual IRI="#Recorrido_183PasoMolino"/>
@@ -1011,6 +1021,16 @@
         <ObjectProperty IRI="#ViajeDeRecorrido"/>
         <NamedIndividual IRI="#Viaje_405Mendoza_1"/>
         <NamedIndividual IRI="#Recorrido_405Mendoza"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ViajeDeRecorrido"/>
+        <NamedIndividual IRI="#Viaje_GLaPaz_1"/>
+        <NamedIndividual IRI="#Recorrido_GLaPaz"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ViajeDeRecorrido"/>
+        <NamedIndividual IRI="#Viaje_GPortones_1"/>
+        <NamedIndividual IRI="#Recorrido_GPortones"/>
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Horario"/>
