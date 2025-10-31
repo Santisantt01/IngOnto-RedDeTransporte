@@ -279,9 +279,6 @@
         <NamedIndividual IRI="#ParadaDeViaje_300PlazaZitarrosa_1_IntercambiadorBelloni"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#ParadaDeViaje_405Mendoza_1_LADeHerrera-RepDelSalvador"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#ParadaDeViaje_60CiudadVieja_1_AvRivera-SLopez"/>
     </Declaration>
     <Declaration>
@@ -552,12 +549,6 @@
         <NamedIndividual IRI="#Recorrido_300PlazaZitarrosa"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Recorrido_405Mendoza"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Recorrido_405ParqueRodo"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Recorrido_60CiudadVieja"/>
     </Declaration>
     <Declaration>
@@ -580,9 +571,6 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Viaje_300PlazaZitarrosa_1"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Viaje_405Mendoza_1"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Viaje_60CiudadVieja_1"/>
@@ -922,10 +910,6 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#ParadaProgramada"/>
-        <NamedIndividual IRI="#ParadaDeViaje_405Mendoza_1_LADeHerrera-RepDelSalvador"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#ParadaProgramada"/>
         <NamedIndividual IRI="#ParadaDeViaje_60CiudadVieja_1_AvRivera-SLopez"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1286,14 +1270,6 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Recorrido"/>
-        <NamedIndividual IRI="#Recorrido_405Mendoza"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Recorrido"/>
-        <NamedIndividual IRI="#Recorrido_405ParqueRodo"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Recorrido"/>
         <NamedIndividual IRI="#Recorrido_60CiudadVieja"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1323,10 +1299,6 @@
     <ClassAssertion>
         <Class IRI="#Viaje"/>
         <NamedIndividual IRI="#Viaje_300PlazaZitarrosa_1"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Viaje"/>
-        <NamedIndividual IRI="#Viaje_405Mendoza_1"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Viaje"/>
@@ -1643,16 +1615,6 @@
         <ObjectProperty IRI="#ParadaProgramadaEnParada"/>
         <NamedIndividual IRI="#ParadaDeViaje_300PlazaZitarrosa_1_IntercambiadorBelloni"/>
         <NamedIndividual IRI="#Parada_IntercambiadorBelloni"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#ParadaProgramadaDeViaje"/>
-        <NamedIndividual IRI="#ParadaDeViaje_405Mendoza_1_LADeHerrera-RepDelSalvador"/>
-        <NamedIndividual IRI="#Viaje_405Mendoza_1"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#ParadaProgramadaEnParada"/>
-        <NamedIndividual IRI="#ParadaDeViaje_405Mendoza_1_LADeHerrera-RepDelSalvador"/>
-        <NamedIndividual IRI="#Parada_LADeHerrera-RepDelSalvador"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ParadaProgramadaDeViaje"/>
@@ -2311,16 +2273,6 @@
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#RecorridoDeLinea"/>
-        <NamedIndividual IRI="#Recorrido_405Mendoza"/>
-        <NamedIndividual IRI="#Linea_405"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#RecorridoDeLinea"/>
-        <NamedIndividual IRI="#Recorrido_405ParqueRodo"/>
-        <NamedIndividual IRI="#Linea_405"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#RecorridoDeLinea"/>
         <NamedIndividual IRI="#Recorrido_60CiudadVieja"/>
         <NamedIndividual IRI="#Linea_60"/>
     </ObjectPropertyAssertion>
@@ -2358,11 +2310,6 @@
         <ObjectProperty IRI="#ViajeDeRecorrido"/>
         <NamedIndividual IRI="#Viaje_300PlazaZitarrosa_1"/>
         <NamedIndividual IRI="#Recorrido_300PlazaZitarrosa"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#ViajeDeRecorrido"/>
-        <NamedIndividual IRI="#Viaje_405Mendoza_1"/>
-        <NamedIndividual IRI="#Recorrido_405Mendoza"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ViajeDeRecorrido"/>
@@ -2533,11 +2480,6 @@
         <DataProperty IRI="#Horario"/>
         <NamedIndividual IRI="#ParadaDeViaje_300PlazaZitarrosa_1_IntercambiadorBelloni"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0135</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#Horario"/>
-        <NamedIndividual IRI="#ParadaDeViaje_405Mendoza_1_LADeHerrera-RepDelSalvador"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0800</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Horario"/>
