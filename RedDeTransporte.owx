@@ -93,9 +93,6 @@
         <ObjectProperty IRI="#trasbordoConRecorrido"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#CodigoLinea"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="#Horario"/>
     </Declaration>
     <Declaration>
@@ -2864,16 +2861,12 @@
         <ObjectProperty IRI="#ParadaDeViaje"/>
     </SubObjectPropertyOf>
     <DataPropertyDomain>
-        <DataProperty IRI="#CodigoLinea"/>
-        <Class IRI="#Linea"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
         <DataProperty IRI="#Horario"/>
         <Class IRI="#ParadaProgramada"/>
     </DataPropertyDomain>
     <DataPropertyRange>
-        <DataProperty IRI="#CodigoLinea"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
+        <DataProperty IRI="#Horario"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
     </DataPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
