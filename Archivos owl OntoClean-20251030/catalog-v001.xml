@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1762112287706" name="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntology.owl" uri="people.cs.uct.ac.za_~mkeet_OEbook_ontologies_OntocleanTutorialOntology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1762112287706" name="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunned.owl" uri="people.cs.uct.ac.za_~mkeet_OEbook_ontologies_OntocleanTutorialOntologyPunned.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1762112287706" name="http://www.meteck.org/teaching/OEbook/ontologies/OntocleanTutorialOntologyPunnedMetaProperties.owl" uri="people.cs.uct.ac.za_~mkeet_OEbook_ontologies_OntocleanTutorialOntologyPunnedMetaProperties.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1762112287706" name="http://www.meteck.org/teaching/ontologies/ontoclean-dl.owl" uri="people.cs.uct.ac.za_~mkeet_OEbook_ontologies_ontoclean-dl.owl"/>
+    </group>
+</catalog>
