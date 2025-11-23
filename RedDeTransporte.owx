@@ -96,6 +96,9 @@
         <DataProperty IRI="#Horario"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Barrio"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Barrio_Aguada"/>
     </Declaration>
     <Declaration>
@@ -171,6 +174,12 @@
         <NamedIndividual IRI="#Barrio_Union"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Entity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Linea"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Linea_183"/>
     </Declaration>
     <Declaration>
@@ -184,6 +193,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Linea_G"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Parada"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#ParadaDeViaje_183PasoMolino_1_AvVazFerreira-AvAgraciada"/>
@@ -399,6 +411,9 @@
         <NamedIndividual IRI="#ParadaDeViaje_GPortones_1_Universidad"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#ParadaProgramada"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Parada_18DeJulio-FCrespo"/>
     </Declaration>
     <Declaration>
@@ -534,6 +549,9 @@
         <NamedIndividual IRI="#Parada_Universidad"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Recorrido"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Recorrido_183PasoMolino"/>
     </Declaration>
     <Declaration>
@@ -556,6 +574,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Recorrido_GPortones"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Viaje"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Viaje_183PasoMolino_1"/>
@@ -598,13 +619,40 @@
         <Class IRI="#Entity"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#ParadaProgramada"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#ParadaProgramadaDeViaje"/>
+                <Class IRI="#Viaje"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#ParadaProgramadaEnParada"/>
+                <Class IRI="#Parada"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Recorrido"/>
         <Class IRI="#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recorrido"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#RecorridoDeLinea"/>
+            <Class IRI="#Linea"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Viaje"/>
         <Class IRI="#Entity"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Viaje"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ViajeDeRecorrido"/>
+            <Class IRI="#Recorrido"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
     <DisjointClasses>
         <Class IRI="#Barrio"/>
         <Class IRI="#Linea"/>
@@ -665,6 +713,26 @@
         <Class IRI="#Recorrido"/>
         <Class IRI="#Viaje"/>
     </DisjointClasses>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontoclean-dl-v1:Class"/>
+        <NamedIndividual IRI="#Barrio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontoclean-dl-v1:NonDependentClass"/>
+        <NamedIndividual IRI="#Barrio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontoclean-dl-v1:RigidClass"/>
+        <NamedIndividual IRI="#Barrio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontoclean-dl-v1:SortalClass"/>
+        <NamedIndividual IRI="#Barrio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontoclean-dl-v1:UnityClass"/>
+        <NamedIndividual IRI="#Barrio"/>
+    </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Barrio"/>
         <NamedIndividual IRI="#Barrio_Aguada"/>
@@ -766,6 +834,38 @@
         <NamedIndividual IRI="#Barrio_Union"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class abbreviatedIRI="ontoclean-dl-v1:NonDependentClass"/>
+        <NamedIndividual IRI="#Entity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontoclean-dl-v1:NonSortalClass"/>
+        <NamedIndividual IRI="#Entity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontoclean-dl-v1:NonUnityClass"/>
+        <NamedIndividual IRI="#Entity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontoclean-dl-v1:RigidClass"/>
+        <NamedIndividual IRI="#Entity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontoclean-dl-v1:NonDependentClass"/>
+        <NamedIndividual IRI="#Linea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontoclean-dl-v1:RigidClass"/>
+        <NamedIndividual IRI="#Linea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontoclean-dl-v1:SortalClass"/>
+        <NamedIndividual IRI="#Linea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontoclean-dl-v1:UnityClass"/>
+        <NamedIndividual IRI="#Linea"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Linea"/>
         <NamedIndividual IRI="#Linea_183"/>
     </ClassAssertion>
@@ -784,6 +884,22 @@
     <ClassAssertion>
         <Class IRI="#Linea"/>
         <NamedIndividual IRI="#Linea_G"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontoclean-dl-v1:NonDependentClass"/>
+        <NamedIndividual IRI="#Parada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontoclean-dl-v1:RigidClass"/>
+        <NamedIndividual IRI="#Parada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontoclean-dl-v1:SortalClass"/>
+        <NamedIndividual IRI="#Parada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontoclean-dl-v1:UnityClass"/>
+        <NamedIndividual IRI="#Parada"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#ParadaProgramada"/>
@@ -1070,6 +1186,22 @@
         <NamedIndividual IRI="#ParadaDeViaje_GPortones_1_Universidad"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class abbreviatedIRI="ontoclean-dl-v1:DependentClass"/>
+        <NamedIndividual IRI="#ParadaProgramada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontoclean-dl-v1:RigidClass"/>
+        <NamedIndividual IRI="#ParadaProgramada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontoclean-dl-v1:SortalClass"/>
+        <NamedIndividual IRI="#ParadaProgramada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontoclean-dl-v1:UnityClass"/>
+        <NamedIndividual IRI="#ParadaProgramada"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Parada"/>
         <NamedIndividual IRI="#Parada_18DeJulio-FCrespo"/>
     </ClassAssertion>
@@ -1250,6 +1382,22 @@
         <NamedIndividual IRI="#Parada_Universidad"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class abbreviatedIRI="ontoclean-dl-v1:DependentClass"/>
+        <NamedIndividual IRI="#Recorrido"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontoclean-dl-v1:RigidClass"/>
+        <NamedIndividual IRI="#Recorrido"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontoclean-dl-v1:SortalClass"/>
+        <NamedIndividual IRI="#Recorrido"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontoclean-dl-v1:UnityClass"/>
+        <NamedIndividual IRI="#Recorrido"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Recorrido"/>
         <NamedIndividual IRI="#Recorrido_183PasoMolino"/>
     </ClassAssertion>
@@ -1280,6 +1428,22 @@
     <ClassAssertion>
         <Class IRI="#Recorrido"/>
         <NamedIndividual IRI="#Recorrido_GPortones"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontoclean-dl-v1:DependentClass"/>
+        <NamedIndividual IRI="#Viaje"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontoclean-dl-v1:RigidClass"/>
+        <NamedIndividual IRI="#Viaje"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontoclean-dl-v1:SortalClass"/>
+        <NamedIndividual IRI="#Viaje"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontoclean-dl-v1:UnityClass"/>
+        <NamedIndividual IRI="#Viaje"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Viaje"/>
@@ -1313,6 +1477,31 @@
         <Class IRI="#Viaje"/>
         <NamedIndividual IRI="#Viaje_GPortones_1"/>
     </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ontoclean-dl-v1:hasSubClass"/>
+        <NamedIndividual IRI="#Entity"/>
+        <NamedIndividual IRI="#Barrio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ontoclean-dl-v1:hasSubClass"/>
+        <NamedIndividual IRI="#Entity"/>
+        <NamedIndividual IRI="#Linea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ontoclean-dl-v1:hasSubClass"/>
+        <NamedIndividual IRI="#Entity"/>
+        <NamedIndividual IRI="#Parada"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ontoclean-dl-v1:hasSubClass"/>
+        <NamedIndividual IRI="#Entity"/>
+        <NamedIndividual IRI="#ParadaProgramada"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ontoclean-dl-v1:hasSubClass"/>
+        <NamedIndividual IRI="#Entity"/>
+        <NamedIndividual IRI="#Viaje"/>
+    </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ParadaProgramadaDeViaje"/>
         <NamedIndividual IRI="#ParadaDeViaje_183PasoMolino_1_AvVazFerreira-AvAgraciada"/>
